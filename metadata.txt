@@ -1,0 +1,33 @@
+# Mandatory items:
+
+[general]
+name=RechercheCommune
+qgisMinimumVersion=3.0
+category=Tools
+description=Déplace la vue sur l'emprise de la commune choisie.
+version=6.1
+
+about=Ce plugin déplace la vue de la carte sur l'emprise de la commune choisie. Fonctionne pour tous les départements français, y compris les DOM-TOM
+
+homepage=https://github.com/fthvd/RechercheCommune/
+tracker=https://github.com/fthvd/RechercheCommune/issues
+repository=https://github.com/fthvd/RechercheCommune
+
+
+# Optional items:
+
+changelog=6.1 Correction de l'adaptation de l'icone à la résolution de l'écran
+ 6.0.5 et 6.0.6 Corrections d'erreurs dans le fichier COMMUNE_avec_etendues.csv
+ 6.0.4 Prise en compte des DOM-TOM
+ 6.0.3 Au changement du choix de région, sélection automatique du premier département et de la première commune dans la liste alphabétique.
+ 6.0.2 Ajout de portions de code permettant la conservation du choix de la région, du département et de la commune, d'une session à l'autre.
+ 6.0.1 Suppression des importations de code inutiles, simplifications de code
+ 6.0.0 Reprise pour Qgis V3, normalisation UTF-8 et mise à jour 2020 du fichier des communes
+
+icon=RechercheCommuneIco.jpg
+experimental=False
+
+# Author contact information
+author=François THEVAND
+email=francois.thevand@gmail.com
+category=Plugins
